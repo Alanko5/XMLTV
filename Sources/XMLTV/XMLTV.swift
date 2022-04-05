@@ -9,7 +9,7 @@ private extension XML {
 
 public class XMLTV {
     
-    private let xml: XML
+    let xml: XML
     
     public init(data: Data) throws {
         self.xml = try XML(data: data)
